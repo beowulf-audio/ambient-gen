@@ -50,3 +50,6 @@ Thumbs.db
 ambient_gen/soundfonts/
 # Keep the archive
 !ambient_gen/soundfonts.tar.xz
+
+# Build/editor artifacts
+*.backup
