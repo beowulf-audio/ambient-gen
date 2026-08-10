@@ -3,7 +3,7 @@
 # Usage: ./git-sync.sh
 
 TOKEN=$(cat .git/credentials 2>/dev/null | grep -o 'github_pat_[^@]*\|ghp_[^@]*')
-REPO_URL="github.com/beowulf-audio/ambient-gen-tui.git"
+REPO_URL="github.com/beowulf-audio/ambient-gen.git"
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
 if [ -z "$TOKEN" ]; then

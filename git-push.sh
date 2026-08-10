@@ -4,7 +4,7 @@
 # Default branch: main
 
 BRANCH="${1:-main}"
-REPO_URL="github.com/beowulf-audio/ambient-gen-tui.git"
+REPO_URL="github.com/beowulf-audio/ambient-gen.git"
 
 # Read token from .git/credentials
 TOKEN=$(cat .git/credentials 2>/dev/null | grep -o 'github_pat_[^@]*\|ghp_[^@]*')
@@ -33,7 +33,7 @@ git remote set-url origin "https://${REPO_URL}"
 
 if [ $EXIT_CODE -eq 0 ]; then
     echo "✅ Successfully pushed to ${BRANCH}!"
-    echo "🚀 Check build status: https://github.com/beowulf-audio/ambient-gen-tui/actions"
+    echo "🚀 Check build status: https://github.com/beowulf-audio/ambient-gen/actions"
 else
     echo "❌ Push failed with exit code ${EXIT_CODE}"
 fi

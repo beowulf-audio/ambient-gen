@@ -2,7 +2,7 @@
 
 Create lush, generative ambient music with spacey textures in your terminal.
 
-**[📸 View Screenshots](https://github.com/beowulf-audio/ambient-gen-tui#screenshots) | [🎵 Listen to Examples](https://github.com/beowulf-audio/ambient-gen-tui#example-output) | [📖 Full Documentation](https://github.com/beowulf-audio/ambient-gen-tui)**
+**[📸 View Screenshots](https://github.com/beowulf-audio/ambient-gen#screenshots) | [🎵 Listen to Examples](https://github.com/beowulf-audio/ambient-gen#example-output) | [📖 Full Documentation](https://github.com/beowulf-audio/ambient-gen)**
 
 ## Features
 
@@ -139,10 +139,10 @@ Soundfonts are automatically extracted from a compressed archive on first import
 
 ## Links
 
-- **GitHub Repository**: https://github.com/beowulf-audio/ambient-gen-tui
-- **Screenshots & Examples**: https://github.com/beowulf-audio/ambient-gen-tui#screenshots
-- **Issue Tracker**: https://github.com/beowulf-audio/ambient-gen-tui/issues
+- **GitHub Repository**: https://github.com/beowulf-audio/ambient-gen
+- **Screenshots & Examples**: https://github.com/beowulf-audio/ambient-gen#screenshots
+- **Issue Tracker**: https://github.com/beowulf-audio/ambient-gen/issues
 
 ## License
 
-MIT License - see [LICENSE](https://github.com/beowulf-audio/ambient-gen-tui/blob/main/LICENSE) file for details.
+MIT License - see [LICENSE](https://github.com/beowulf-audio/ambient-gen/blob/main/LICENSE) file for details.

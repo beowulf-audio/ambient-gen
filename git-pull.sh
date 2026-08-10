@@ -4,7 +4,7 @@
 # Default branch: main
 
 BRANCH="${1:-main}"
-REPO_URL="github.com/beowulf-audio/ambient-gen-tui.git"
+REPO_URL="github.com/beowulf-audio/ambient-gen.git"
 
 # Read token from .git/credentials
 TOKEN=$(cat .git/credentials 2>/dev/null | grep -o 'github_pat_[^@]*\|ghp_[^@]*')

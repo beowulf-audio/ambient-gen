@@ -45,9 +45,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/beowulf-audio/ambient-gen-tui"
-Repository = "https://github.com/beowulf-audio/ambient-gen-tui"
-Issues = "https://github.com/beowulf-audio/ambient-gen-tui/issues"
+Homepage = "https://github.com/beowulf-audio/ambient-gen"
+Repository = "https://github.com/beowulf-audio/ambient-gen"
+Issues = "https://github.com/beowulf-audio/ambient-gen/issues"
 
 [project.scripts]
 ambient-gen = "ambient_gen.tui:main"
